@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+body{
+    background-color:cornsilk;
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.background {
+    margin: auto;
+    /*-moz-box-sizing: border-box;*/
+    box-sizing: border-box;
+    background: url(sample1.png) center center no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 1000px;
+    /*padding-top: 62.5%;*/
+    padding: 100px 100px 0px 100px;
+    border-right: 300px solid rgba(0,0,0, 0.5);
+    border-left: 300px solid rgba(0,0,0, 0.5);
+    outline: 20px solid black;
+    outline-offset: -10px;
+    vertical-align: bottom;
+}
+
+div.list{
+    margin: 200px auto;
+}
+
+.bt{
+    border: 2px solid black;
+}
+
+div.Addition {
+    color:green;
+    text-align: left;
+}
+
+label {
+    display:block;
+}
+
+div.input {
+    text-align:  center;
+}
+
+div.input_subscribed {
+    text-align: center;
+}
+
+div.input_login {
+    text-align: center;
+}
+div.danger {
+    text-align: center;
+}
+
+div.g_list {
+    text-align: center;
+}
+
+div.a_list {
+    text-align: center;
+}
+
+div.a_sort {
+    text-align: center;
+}
+
+div.g_sort {
+    text-align: center;
+}
+
+div.list a {
+    text-decoration: none;
+    text-align: center;
+    background: rgba(0,0,0, 0.3);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    z-index:0;
+    border: 2px solid black;
+    
+}
+
+div.list a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    display: block;
+    background: #6bb6ff;
+    transition: .3s;
+    left:0;
+}
+
+div.list a:hover {
+    color: #FFF;
+}
+
+div.list a:hover:before {
+    width: 100%;
+    z-index: -1;
+}
+
+div.photo {
+    display: flex;
+    margin-left: 150px;
+}
+
+div.foot {
+    background: #000;
+    margin-bottom: 0px;
+}
+
+footer{
+    border-top: px solid white;
+    color: #FFF;
+    padding-top: 10px;
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    outline: 20px solid black;
+    outline-offset: -10px;
+    /* font-size: 0.875rem; */
+}

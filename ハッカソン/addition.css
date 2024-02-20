@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+body{
+    background-color:cornsilk;
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+}
+
+div.Addition {
+    color:green;
+    text-align: left;
+    
+}
+
+div.border{
+    border: dotted 2px;
+}
+
+div.header {
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    background-image:url(vegetable.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.header-shadow {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 750px;
+    height: 200px;
+    
+}
+
+h2.header-shadow-inner{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+div.header-right{
+    padding: 30px;
+    margin: auto;
+    
+}
+
+div.detail {
+    display: flex;
+    text-align: center;
+    height: 500px;
+}
+
+div.image1{
+    height: 1.0rem;
+}
+
+div.detail-right {
+    text-align: center;
+    line-height: 28px;
+    padding: 60px;
+    margin-bottom: 200px;
+}
+
+h2.introduce{
+    margin: 50px auto 50px;
+    display: flex;
+}
+
+
+div.bottom{
+    display: flex;
+    padding: 30px;
+    
+}
+
+div.switch1 {
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+div.switch2 {
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+div.switch3 {
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+div.bottom a {
+    border-top: 30px;
+	text-decoration: none;
+    text-align: center;
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    z-index:0;
+}
+
+div.bottom a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    display: block;
+    background: #6bb6ff;
+    transition: .3s;
+    left:0;
+}
+
+div.bottom a:hover {
+    color: #FFF;
+}
+
+div.bottom a:hover:before {
+    width: 100%;
+    z-index: -1;
+}
+
+
+div.wrapper {
+    background: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.wrapper p {
+    color: #FFF;
+    font-size: 0.875rem;
+}

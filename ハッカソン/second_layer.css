@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+body{
+    background-color:cornsilk;
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+}
+
+div.Addition {
+	text-align: left;
+}
+
+div.a_Addition {
+	text-align: left;
+}
+
+div.g_Addition {
+	text-align: left;
+}
+
+div.Addition {
+	color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    background-image:url(food1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.g_sort {
+	color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    background-image:url(top-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.a_sort {
+	color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    background-image:url(top-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*div.g_list {
+	color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    background-image:url(../image/top-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}*/
+
+/*div.a_list {
+	color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    background-image:url(../image/top-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}*/
